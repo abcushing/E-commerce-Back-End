@@ -1,9 +1,42 @@
 # E-commerce Back End
- Challange 13 e-commerce back end
 
+Challange 13 e-commerce back end
 
+## Description
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This app is for creating a backend for an e-commerce website/app
+
+demo video:
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+run 'npm i' in your console to install
+
+## Usage
+
+Educational
+
+## License
+
+n/a (Educational)
+
+## Contributing
+
+Anyone contributing to this project will need to have their changes reviewed by the original team on Github (abcushing) before any changes are commited
+
+## Questions
+
+- [Github](https://github.com/abcushing)
+- Our team is reachable on Github for any additonal questions you may have.
+
+````
 # 13 Object-Relational Mapping (ORM): E-Commerce Back End
 
 ## Your Task
@@ -71,75 +104,75 @@ Your database should contain the following four models, including the requiremen
   * `id`
 
     * Integer.
-  
+
     * Doesn't allow null values.
-  
+
     * Set as primary key.
-  
+
     * Uses auto increment.
 
   * `category_name`
-  
+
     * String.
-  
+
     * Doesn't allow null values.
 
 * `Product`
 
   * `id`
-  
+
     * Integer.
-  
+
     * Doesn't allow null values.
-  
+
     * Set as primary key.
-  
+
     * Uses auto increment.
 
   * `product_name`
-  
+
     * String.
-  
+
     * Doesn't allow null values.
 
   * `price`
-  
+
     * Decimal.
-  
+
     * Doesn't allow null values.
-  
+
     * Validates that the value is a decimal.
 
   * `stock`
-  
+
     * Integer.
-  
+
     * Doesn't allow null values.
-  
+
     * Set a default value of `10`.
-  
+
     * Validates that the value is numeric.
 
   * `category_id`
-  
+
     * Integer.
-  
+
     * References the `Category` model's `id`.
 
 * `Tag`
 
   * `id`
-  
+
     * Integer.
-  
+
     * Doesn't allow null values.
-  
+
     * Set as primary key.
-  
+
     * Uses auto increment.
 
   * `tag_name`
-  
+
     * String.
 
 * `ProductTag`
@@ -204,7 +237,7 @@ Create the code needed in `server.js` to sync the Sequelize models to the MySQL 
 >
 > * A repository that only includes starter code
 
-This Challenge is graded based on the following criteria: 
+This Challenge is graded based on the following criteria:
 
 ### Deliverables: 10%
 
@@ -264,3 +297,4 @@ You are required to submit BOTH of the following for review:
 
 ---
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+````
