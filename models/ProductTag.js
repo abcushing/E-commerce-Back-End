@@ -3,6 +3,7 @@ const sequelize = require("../config/connection");
 
 class ProductTag extends Model {}
 
+// product tag keys
 ProductTag.init(
   {
     id: {
