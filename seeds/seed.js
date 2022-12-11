@@ -1,3 +1,4 @@
+// not sure how this is supposed to work, tutor just told me to grab a random file from class
 const sequelize = require("../config/connection");
 const { Driver, License } = require("../models");
 
