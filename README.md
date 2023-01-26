@@ -6,7 +6,7 @@ Challange 13 e-commerce back end
 
 This app is for creating a backend for an e-commerce website/app
 
-demo video:https://drive.google.com/file/d/1L1sOkClILbyCvWCJC0P0zxvV_7lVtwGI/view
+demo video:https://drive.google.com/file/d/1ZE5cWbae9I85anBmkoRT0F1mk0SHcp39/view
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@ demo video:https://drive.google.com/file/d/1L1sOkClILbyCvWCJC0P0zxvV_7lVtwGI/vie
 
 ## Installation
 
-run 'npm i' in your console to install
+run 'npm i' in your console to install. You will also need to login to MySQL and seed the database. You will then need to use Insomina (or some simalar app) to CRUD
 
 ## Usage
 
